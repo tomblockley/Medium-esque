@@ -1617,7 +1617,7 @@ figure.logo.medium a {
 }
 */
 
-@media all and (device-width: 768px) and (device-height: 1024px), only all and (max-height: 650px) {
+@media all and (screen-width: 768px) and (screen-height: 1024px), only all and (max-height: 650px) {
   
   header#sidebar {
     position: fixed;/**/
@@ -1663,7 +1663,7 @@ figure.logo.medium a {
     font-size: 14px;
   }
 }
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait), all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+@media all and (screen-width: 768px) and (screen-height: 1024px) and (orientation: portrait), all and (screen-width: 768px) and (screen-height: 1024px) and (orientation: landscape) {
  
 
   
@@ -2065,7 +2065,7 @@ ul#user_nav li {
     top: 30px;
   }
 }
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+@media all and (screen-width: 768px) and (screen-height: 1024px) and (orientation: portrait) {
   
   header#sidebar {
     width: 150px;
@@ -2079,7 +2079,7 @@ ul#user_nav li {
     margin-left: 0;
   }
 }
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+@media all and (screen-width: 768px) and (screen-height: 1024px) and (orientation: landscape) {
   
   header#sidebar {
     width: 200px;
@@ -2093,7 +2093,7 @@ ul#user_nav li {
     margin-left: 0;
   }
 }
-@media only all and (max-width: 750px), all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait), all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+@media only all and (max-width: 750px), all and (screen-width: 768px) and (screen-height: 1024px) and (orientation: portrait), all and (screen-width: 768px) and (screen-height: 1024px) and (orientation: landscape) {
   
   article aside.kudo {
     float: none;
